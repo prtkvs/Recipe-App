@@ -5,7 +5,8 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 body{
-    background-color: #964b00;
+    /* background-color: #964b00; */
+    background-image: url('brownbg.jpg');
     color: #fff;
 }
 /* Git post successfully */
