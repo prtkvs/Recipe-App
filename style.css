@@ -109,7 +109,7 @@ form button[type="submit"]:hover,.recipe button:hover,.recipe-close-btn:hover {
 }
 
 .recipe-details{
-    display: flex;
+    display: none;
     position: fixed;
     top: 50%;
     left: 50%;
