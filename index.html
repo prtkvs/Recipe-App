@@ -1,37 +1,518 @@
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <title>Recipe App</title>
-</head>
-<body>
-    <header>
-        <nav>
-            <h1>Recipe App</h1>
-        <form>
-            <input type="text" placeholder="Search for Receipes..." class="searchBox"/>
-            <button type="submit" class="searchBtn">Search</button>
-        </form>
-        </nav>
-    </header>
-    <main>
-        <section>
-            <div class="recipe-container">
-                <h2>Search your favourite Recipes...</h2>
-            </div>
-            <div class="recipe-details"><button type="button" class="recipe-close-btn">
-                <span class="material-symbols-outlined">
-                    close
-                    </span>
-            </button>
-            <div class="recipe-details-content"></div>
+  <head>
+    <meta charset="UTF-8" />
+    <title> Recipe App
+    </title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /> 
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <header>
+    <nav>
+        <h1>Recipe App <h2>Search your favourite Recipes ----------></h2></h1>
+    <form>
+        <input type="text" placeholder="Search for Receipes..." class="searchBox"/>
+        <button type="submit" class="searchBtn">Search</button>
+    </form>
+    </nav>
+</header>
+<main>
+    <section>
+        <div class="recipe-container">
         </div>
-        </section>
-    </main>
+        <div class="recipe-details"><button type="button" class="recipe-close-btn">
+            <span class="material-symbols-outlined">
+                close
+                </span>
+        </button>
+        <div class="recipe-details-content"></div>
+    </div>
+    </section>
+</main>
 
-    <script src="app.js"></script>
-</body>
+  <body>
+            <div class="restaurant-list">
+              <div class="place">
+                <a
+                  href="Pizza\meal\Pizza-Express-Margherita.html"
+                  class="place-link"
+                >
+                  <div class="list-item">
+                    <div class="item-content">
+                      <div class="top-img">
+                        <img
+                          class="_2tuBw _12_oN"
+                          alt="Waffl'd"
+                          width="254"
+                          height="160"
+                          src="https://www.simplyrecipes.com/thmb/pjYMLcsKHkr8D8tYixmaFNxppPw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2019__09__easy-pepperoni-pizza-lead-3-8f256746d649404baa36a44d271329bc.jpg"
+                        />
+                      </div>
+                      <div
+                        class="status"
+                        style="
+                          background:rgb(54, 186, 152);
+                          color: rgb(0, 0, 0);
+                          border-color:  #FFE3E3 transparent;
+                        "
+                      >
+                        <div class="status-title">Promoted</div>
+                      </div>
+                      <div class="place-name-div">
+                        <div class="name">Pizza Express Margherita</div>
+                        <div
+                          class="food-items"
+                          title="Bakery, Desserts, Beverages, Combo, European, Ice Cream, Juices, Waffle, Sweets"
+                        >
+                        Italian Dish <br>
+                        Belongs to Miscellaneous Category
+                        </div>
+                      </div>
+                      <div class="info-div">
+                        <div class="rating" style="background-color: #48c479">
+                          <span class="icon-star"
+                            ><i class="fa-solid fa-star"></i></span
+                          ><span>5.0</span>
+                        </div>
+                        <div>•</div>
+                        <div>44 MINS</div>
+                        <div>•</div>
+                        <div class="price">₹500 FOR TWO</div>
+                      </div>
+                      <div class="offer-div">
+                        <span class="icon-offer-filled"
+                          ><i class="fa-solid fa-tags"></i
+                        ></span>
+                        <span class="offer-text">50% off | Use Roushan50</span>
+                      </div>
+                    </div>
+                    <div class="quick-view">
+                      <span role="button" aria-label="Open" class="view-btn"
+                        >Quick View</span
+                      >
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="place">
+                <a
+                  href="Cake\meal\Cake.html"
+                  class="place-link"
+                  ><div class="list-item">
+                    <div class="item-content">
+                      <div class="top-img">
+                        <img
+                          class="_2tuBw _12_oN"
+                          alt="Waffl'd"
+                          width="254"
+                          height="160"
+                          src="https://theovenclassics.in/web/uploads/productimages/1648101958_chocolate_chunk.jpg"
+                        />
+                      </div>
+
+                      <div class="place-name-div">
+                        <div class="name">Cakes</div>
+                        <div
+                          class="food-items"
+                          title="Bakery, Desserts, Beverages, Combo, European, Ice Cream, Juices, Waffle, Sweets"
+                        >
+                        American Dish
+                        <br> Belongs to Dessert Category
+                        </div>
+                      </div>
+                      <div class="info-div">
+                        <div class="rating">
+                          <span class="icon-star"
+                            ><i class="fa-solid fa-star"></i></span
+                          ><span>3.8</span>
+                        </div>
+                        <div>•</div>
+                        <div>35 MINS</div>
+                        <div>•</div>
+                        <div class="price">₹800 FOR TWO</div>
+                      </div>
+                      <div class="offer-div">
+                        <span class="icon-offer-filled"
+                          ><i class="fa-solid fa-tags"></i></span
+                        ><span class="offer-text">50% off | Use Roushan50</span>
+                      </div>
+                    </div>
+                    <div class="quick-view">
+                      <span role="button" aria-label="Open" class="view-btn"
+                        >Quick View</span
+                      >
+                    </div>
+                  </div></a
+                >
+              </div>
+              <div class="place">
+                <a
+                  href="Noodles\meal\Noodles.html"
+                  class="place-link"
+                  ><div class="list-item">
+                    <div class="item-content">
+                      <div class="top-img">
+                        <img
+                          class="_2tuBw _12_oN"
+                          alt="Waffl'd"
+                          width="254"
+                          height="160"
+                          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHI6vHr6V8yiVoYNezh3ViC4ZcCD7U_0kuuw&s"
+                        />
+                      </div>
+                      <div
+                        class="status"
+                        style="
+                          background:rgb(54, 186, 152);
+                          color: rgb(255, 255, 255);
+                          border-color: rgb(30, 32, 35) transparent;
+                        "
+                      >
+                        <div class="status-title">Promoted</div>
+                      </div>
+                      <div class="place-name-div">
+                        <div class="name">Laksa King Prawn Noodles</div>
+                        <div
+                          class="food-items"
+                          title="Bakery, Desserts, Beverages, Combo, European, Ice Cream, Juices, Waffle, Sweets"
+                        >
+                        Malaysian Dish <br>
+                        Belongs to Seafood Category
+                        </div>
+                      </div>
+                      <div class="info-div">
+                        <div class="rating" style="background-color: #48c479">
+                          <span class="icon-star"
+                            ><i class="fa-solid fa-star"></i></span
+                          ><span>4.8</span>
+                        </div>
+                        <div>•</div>
+                        <div>20 MINS</div>
+                        <div>•</div>
+                        <div class="price">₹200 FOR TWO</div>
+                      </div>
+                      <div class="offer-div">
+                        <span class="icon-offer-filled"
+                          ><i class="fa-solid fa-tags"></i></span
+                        ><span class="offer-text">50% off | Use WELCOME50</span>
+                      </div>
+                    </div>
+                    <div class="quick-view">
+                      <span role="button" aria-label="Open" class="view-btn"
+                        >Quick View</span
+                      >
+                    </div>
+                  </div></a
+                >
+              </div>
+              <div class="place">
+                <a
+                  href="Chicken\meal\chicken.html"
+                  class="place-link"
+                  ><div class="list-item">
+                    <div class="item-content">
+                      <div class="top-img">
+                        <img
+                          class="_2tuBw _12_oN"
+                          alt="Waffl'd"
+                          width="254"
+                          height="160"
+                          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSg48HMtzL1pqpdIkOonAV9XoxsKc6R7nQKVA&s"
+                        />
+                      </div>
+                      <div
+                        class="status"
+                        style="
+                          background: rgb(54, 186, 152);
+                          color: rgb(255, 255, 255);
+                          border-color: rgb(30, 32, 35) transparent;
+                        "
+                      >
+                        <div class="status-title">Promoted</div>
+                      </div>
+                      <div class="place-name-div">
+                        <div class="name">Chicken Handi</div>
+                        <div
+                          class="food-items"
+                          title="Bakery, Desserts, Beverages, Combo, European, Ice Cream, Juices, Waffle, Sweets"
+                        >
+                        Indian Dish <br>
+                        Belongs to Chicken Category
+                        </div>
+                      </div>
+                      <div class="info-div">
+                        <div class="rating" style="background-color: #48c479">
+                          <span class="icon-star"
+                            ><i class="fa-solid fa-star"></i></span
+                          ><span>4.9</span>
+                        </div>
+                        <div>•</div>
+                        <div>50 MINS</div>
+                        <div>•</div>
+                        <div class="price">₹700 FOR TWO</div>
+                      </div>
+                      <div class="offer-div">
+                        <span class="icon-offer-filled"
+                          ><i class="fa-solid fa-tags"></i></span
+                        ><span class="offer-text">50% off | Use Roushan50</span>
+                      </div>
+                    </div>
+                    <div class="quick-view">
+                      <span role="button" aria-label="Open" class="view-btn"
+                        >Quick View</span
+                      >
+                    </div>
+                  </div></a
+                >
+              </div>
+              <div class="place">
+                <a
+                  href="Paneer\meal\Paneer.html"
+                  class="place-link"
+                  ><div class="list-item">
+                    <div class="item-content">
+                      <div class="top-img">
+                        <img
+                          class="_2tuBw _12_oN"
+                          alt="Waffl'd"
+                          width="254"
+                          height="160"
+                          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1aiU-wkbKm8X5fdbiLMRmHgKIDf5ZqfLzZQ&s"
+                        />
+                      </div>
+                      <div
+                        class="status"
+                        style="
+                          background: rgb(54, 186, 152);
+                          color: rgb(255, 255, 255);
+                          border-color: rgb(30, 32, 35) transparent;
+                        "
+                      >
+                        <div class="status-title">Promoted</div>
+                      </div>
+                      <div class="place-name-div">
+                        <div class="name">Matar Paneer</div>
+                        <div
+                          class="food-items"
+                          title="Bakery, Desserts, Beverages, Combo, European, Ice Cream, Juices, Waffle, Sweets"
+                        >
+                        Indian Dish <br>
+                        Belongs to Vegetarian Category
+                        </div>
+                      </div>
+                      <div class="info-div">
+                        <div class="rating" style="background-color: #48c479">
+                          <span class="icon-star"
+                            ><i class="fa-solid fa-star"></i></span
+                          ><span>4.8</span>
+                        </div>
+                        <div>•</div>
+                        <div>30 MINS</div>
+                        <div>•</div>
+                        <div class="price">₹400 FOR TWO</div>
+                      </div>
+                      <div class="offer-div">
+                        <span class="icon-offer-filled"
+                          ><i class="fa-solid fa-tags"></i></span
+                        ><span class="offer-text">50% off | Use Roushan50</span>
+                      </div>
+                    </div>
+                    <div class="quick-view">
+                      <span role="button" aria-label="Open" class="view-btn"
+                        >Quick View</span
+                      >
+                    </div>
+                  </div></a
+                >
+              </div>
+              <div class="place">
+                <a
+                  href="Mushroom/meal/Mushroom.html"
+                  class="place-link"
+                  ><div class="list-item">
+                    <div class="item-content">
+                      <div class="top-img">
+                        <img
+                          class="_2tuBw _12_oN"
+                          alt="Waffl'd"
+                          width="254"
+                          height="160"
+                          src="https://www.indianhealthyrecipes.com/wp-content/uploads/2021/09/mushroom-pepper-fry-swasthi.jpg"
+                        />
+                      </div>
+
+                      <div class="place-name-div">
+                        <div class="name">Mushroom</div>
+                        <div
+                          class="food-items"
+                          title="Bakery, Desserts, Beverages, Combo, European, Ice Cream, Juices, Waffle, Sweets"
+                        >
+                        British Dish <br>
+                        Belongs to Vegetarian Category
+                        </div>
+                      </div>
+                      <div class="info-div">
+                        <div class="rating">
+                          <span class="icon-star"
+                            ><i class="fa-solid fa-star"></i></span
+                          ><span>3.8</span>
+                        </div>
+                        <div>•</div>
+                        <div>25 MINS</div>
+                        <div>•</div>
+                        <div class="price">₹600 FOR TWO</div>
+                      </div>
+                      <div class="offer-div">
+                        <span class="icon-offer-filled"
+                          ><i class="fa-solid fa-tags"></i></span
+                        ><span class="offer-text">50% off | Use WELCOME50</span>
+                      </div>
+                    </div>
+                    <div class="quick-view">
+                      <span role="button" aria-label="Open" class="view-btn"
+                        >Quick View</span
+                      >
+                    </div>
+                  </div></a
+                >
+              </div>
+              <div class="place">
+                <a
+                  href="Biryani/meal/Biryani.html"
+                  class="place-link"
+                  ><div class="list-item">
+                    <div class="item-content">
+                      <div class="top-img">
+                        <img
+                          class="_2tuBw _12_oN"
+                          alt="Waffl'd"
+                          width="254"
+                          height="160"
+                          src="https://norecipes.com/wp-content/uploads/2017/05/chicken-biryani-006.jpg"
+                        />
+                      </div>
+                      <div
+                        class="status"
+                        style="
+                          background: rgb(54, 186, 152);
+                          color: rgb(255, 255, 255);
+                          border-color: rgb(30, 32, 35) transparent;
+                        "
+                      >
+                        <div class="status-title">Promoted</div>
+                      </div>
+                      <div class="place-name-div">
+                        <div class="name">Lamb Biryani</div>
+                        <div
+                          class="food-items"
+                          title="Bakery, Desserts, Beverages, Combo, European, Ice Cream, Juices, Waffle, Sweets"
+                        >
+                        Indian Dish <br>
+                        Belongs to Lamb Category
+                        </div>
+                      </div>
+                      <div class="info-div">
+                        <div class="rating" style="background-color: #48c479">
+                          <span class="icon-star"
+                            ><i class="fa-solid fa-star"></i></span
+                          ><span>4.8</span>
+                        </div>
+                        <div>•</div>
+                        <div>45 MINS</div>
+                        <div>•</div>
+                        <div class="price">₹700 FOR TWO</div>
+                      </div>
+                      <div class="offer-div">
+                        <span class="icon-offer-filled"
+                          ><i class="fa-solid fa-tags"></i></span
+                        ><span class="offer-text">50% off | Use WELCOME50</span>
+                      </div>
+                    </div>
+                    <div class="quick-view">
+                      <span role="button" aria-label="Open" class="view-btn"
+                        >Quick View</span
+                      >
+                    </div>
+                  </div></a
+                >
+              </div>
+              <div class="place">
+                <a
+                  href="CheeseTart/meal/CheeseTatr.html"
+                  class="place-link"
+                  ><div class="list-item">
+                    <div class="item-content">
+                      <div class="top-img">
+                        <img
+                          class="_2tuBw _12_oN"
+                          alt="Waffl'd"
+                          width="254"
+                          height="160"
+                          src="https://www.themealdb.com/images/media/meals/wurrux1468416624.jpg"
+                        />
+                      </div>
+                      <div
+                        class="status"
+                        style="
+                          background: rgb(54, 186, 152);
+                          color: rgb(255, 255, 255);
+                          border-color: rgb(30, 32, 35) transparent;
+                        "
+                      >
+                        <div class="status-title">Promoted</div>
+                      </div>
+                      <div class="place-name-div">
+                        <div class="name">Cream Cheese Tart</div>
+                        <div
+                          class="food-items"
+                          title="Bakery, Desserts, Beverages, Combo, European, Ice Cream, Juices, Waffle, Sweets"
+                        >
+                        Unknown Dish <br>
+                        Belongs to Starter Category
+                        </div>
+                      </div>
+                      <div class="info-div">
+                        <div class="rating" style="background-color: #48c479">
+                          <span class="icon-star"
+                            ><i class="fa-solid fa-star"></i></span
+                          ><span>4.4</span>
+                        </div>
+                        <div>•</div>
+                        <div>53 MINS</div>
+                        <div>•</div>
+                        <div class="price">₹600 FOR TWO</div>
+                      </div>
+                      <div class="offer-div">
+                        <span class="icon-offer-filled"
+                          ><i class="fa-solid fa-tags"></i></span
+                        ><span class="offer-text">50% off | Use WELCOME50</span>
+                      </div>
+                    </div>
+                    <div class="quick-view">
+                      <span role="button" aria-label="Open" class="view-btn"
+                        >Quick View</span
+                      >
+                    </div>
+                  </div></a
+                >
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <script src="app.js"></script>
+  </body>
 </html>
